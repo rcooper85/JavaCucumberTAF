@@ -22,8 +22,8 @@ public class Hooks {
 
     }
 
-    @After
-    public void teardown() {
-        world.teardownWorld();
-    }
+//    @After
+//    public void teardown() {
+//        world.teardownWorld();
+//    }
 }

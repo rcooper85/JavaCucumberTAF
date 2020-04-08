@@ -23,7 +23,7 @@ public class BasePage {
     }
 
     public LoginPage clickLoginPage() {
-        driver.findElement(By.linkText("Form Authentication")).click();
+        world.getDriver().findElement(By.linkText("Form Authentication")).click();
         return new LoginPage(world);
     }
 

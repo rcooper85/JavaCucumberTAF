@@ -30,13 +30,7 @@ public class ForgotPasswordSteps {
 
     @When("^I click on the link (.*)$")
     public void iClickOnTheLinkForgotPassword(String link) throws InterruptedException {
-//        this.homepage.clickForgotPassword();
-////        forgotPasswordPage = new ForgotPasswordPage(this.world.driver);
-////        String title = this.world.driver.getTitle();
-//        System.out.println("The title is: " + title);
         this.homepage.clickForgotPassword();
-
-
     }
 
     @Then("^I see email field present$")

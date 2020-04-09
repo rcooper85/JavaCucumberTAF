@@ -16,8 +16,8 @@ public class BasePage {
     }
 
 
-    public ForgotPasswordPage clickForgotPassword() {
-        world.getDriver().findElement(By.linkText("Forgot Password")).click();
+    public ForgotPasswordPage clickForgotPassword(String link) {
+        world.getDriver().findElement(By.linkText(link)).click();
         return new ForgotPasswordPage(world);
 
     }

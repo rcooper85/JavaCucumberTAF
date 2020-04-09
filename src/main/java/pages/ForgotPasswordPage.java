@@ -10,14 +10,27 @@ public class ForgotPasswordPage extends BasePage {
 
     public CucumberWorld world;
 
+    private By emailField = By.id("email");
+    private By retrievePasswordButton = By.id("form_submit");
+
     public ForgotPasswordPage(CucumberWorld world) {
         super(world);
+        this.world = world;
     }
 
     @FindBy(how = How.ID, using = "email")
     public WebElement emailid;
 
     public void emailIdIsDisplayed() {
-        world.getDriver().findElement(By.id("email")).click();
+        world.getDriver().findElement(emailField).isDisplayed();
+    }
+
+    public void enterEmailAddress(String email) {
+        world.getDriver().findElement(emailField).sendKeys(email);
+    }
+
+    public EmailSentPage clickRetrieveButton() {
+        world.getDriver().findElement(retrievePasswordButton).submit();
+        return new EmailSentPage(world);
     }
 }

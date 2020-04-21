@@ -15,10 +15,11 @@ import java.net.URL;
 
 public class CucumberWorld {
 
+    ReadConfig config = new ReadConfig();
     public static WebDriver driver;
     public static final String USERNAME = "ross217";
-    public static final String AUTOMATE_KEY = "";
-    public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+    public final String AUTOMATE_KEY = config.loadConfig("seleniumgridkey");
+    public final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     public WebDriver getDriver() {
         return driver;
@@ -29,7 +30,7 @@ public class CucumberWorld {
     }
 
     public void setupWorld() throws MalformedURLException {
-        ReadConfig config = new ReadConfig();
+
         String browser = config.loadConfig("browser").toLowerCase();
 
         if ("chrome".equals(browser)) {

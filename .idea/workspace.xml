@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/ReadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InputsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/alerts.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/homepage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AlertsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/HomepageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/forgotpassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/forgotpassword.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/test.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,22 +243,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1587482349424" />
-    <state width="1557" height="99" key="GridCell.Tab.0.bottom" timestamp="1587482349602">
+    <state width="1557" height="99" key="GridCell.Tab.0.bottom" timestamp="1587483416243">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="99" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587482349602" />
-    <state width="1557" height="99" key="GridCell.Tab.0.center" timestamp="1587482349601">
+    <state width="1557" height="99" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587483416243" />
+    <state width="1557" height="99" key="GridCell.Tab.0.center" timestamp="1587483416242">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="99" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587482349601" />
-    <state width="1557" height="99" key="GridCell.Tab.0.left" timestamp="1587482349601">
+    <state width="1557" height="99" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587483416242" />
+    <state width="1557" height="99" key="GridCell.Tab.0.left" timestamp="1587483416242">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="99" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587482349601" />
-    <state width="1557" height="99" key="GridCell.Tab.0.right" timestamp="1587482349601">
+    <state width="1557" height="99" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587483416242" />
+    <state width="1557" height="99" key="GridCell.Tab.0.right" timestamp="1587483416243">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="99" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587482349601" />
+    <state width="1557" height="99" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587483416243" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1587151017303">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

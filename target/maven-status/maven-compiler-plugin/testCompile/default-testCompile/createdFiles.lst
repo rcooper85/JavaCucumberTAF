@@ -1,0 +1,6 @@
+steps\ForgotPasswordSteps.class
+steps\HomepageSteps.class
+steps\Hooks.class
+steps\CommonSteps.class
+runner\TestRunner.class
+steps\AlertsSteps.class

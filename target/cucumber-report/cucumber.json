@@ -1,0 +1,627 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-21T15:10:58.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9576000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initialiseTests()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Retrieve passwords for different email addresses",
+        "description": "",
+        "id": "forgot-password;retrieve-passwords-for-different-email-addresses;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1278000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2989000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to webpage https://the-internet.herokuapp.com/forgot_password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/forgot_password",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iBrowseToWebpageHttpsTheInternetHerokuappCom(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the email address test@email.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iEnterTheEmailAddressEmail(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 496000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the retrieve password button",
+            "match": {
+              "location": "steps.ForgotPasswordSteps.iClickTheRetrievePasswordButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The text Your e-mail\u0027s been sent! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your e-mail\u0027s been sent!",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.theTextYourEMailSBeenSentIsDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@password"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-21T15:11:13.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9083000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initialiseTests()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Retrieve passwords for different email addresses",
+        "description": "",
+        "id": "forgot-password;retrieve-passwords-for-different-email-addresses;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2134000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1890000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to webpage https://the-internet.herokuapp.com/forgot_password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/forgot_password",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iBrowseToWebpageHttpsTheInternetHerokuappCom(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the email address test2ytyttuyyfyujfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjgfjfjgfgjfgj@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2ytyttuyyfyujfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjgfjfjgfgjfgj@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iEnterTheEmailAddressEmail(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the retrieve password button",
+            "match": {
+              "location": "steps.ForgotPasswordSteps.iClickTheRetrievePasswordButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The text Your e-mail\u0027s been sent! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your e-mail\u0027s been sent!",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.theTextYourEMailSBeenSentIsDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@password"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-21T15:11:27.936Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5133000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initialiseTests()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Retrieve passwords for different email addresses",
+        "description": "",
+        "id": "forgot-password;retrieve-passwords-for-different-email-addresses;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1068000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2823000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to webpage https://the-internet.herokuapp.com/forgot_password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/forgot_password",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iBrowseToWebpageHttpsTheInternetHerokuappCom(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the email address invalidemail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidemail",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iEnterTheEmailAddressEmail(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 524000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the retrieve password button",
+            "match": {
+              "location": "steps.ForgotPasswordSteps.iClickTheRetrievePasswordButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The text Your e-mail\u0027s been sent! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your e-mail\u0027s been sent!",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.theTextYourEMailSBeenSentIsDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@password"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password",
+    "description": "",
+    "id": "forgot-password",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/forgotpassword.feature",
+    "tags": [
+      {
+        "name": "@password",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-21T15:11:37.839Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.initialiseTests()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "The look and feel of the home page is as expected",
+        "description": "",
+        "id": "homepage;the-look-and-feel-of-the-home-page-is-as-expected",
+        "after": [
+          {
+            "result": {
+              "duration": 1220000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1578000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to webpage https://the-internet.herokuapp.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.ForgotPasswordSteps.iBrowseToWebpageHttpsTheInternetHerokuappCom(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The title of the page is The Internet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Internet",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.HomepageSteps.theTitleOfThePageIsTheInternet(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The homepage text Welcome to the-internet is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to the-internet",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HomepageSteps.theHomepageTextWelcomeToTheInternetIsDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.recordFailure(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/homepage.feature",
+    "tags": [
+      {
+        "name": "@homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]

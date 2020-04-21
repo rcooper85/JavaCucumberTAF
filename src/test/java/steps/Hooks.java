@@ -1,15 +1,11 @@
 package steps;
 
 import base.CucumberWorld;
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
+import java.net.MalformedURLException;
 
 public class Hooks {
 
@@ -20,11 +16,9 @@ public class Hooks {
     }
 
     @Before
-    public void initialiseTests() {
+    public void initialiseTests() throws MalformedURLException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\chromedriver.exe");
         world.setupWorld();
-
     }
 
     @After
@@ -34,15 +28,12 @@ public class Hooks {
 
     @AfterStep
     public void recordFailure(Scenario scenario) {
-
+        String fileName = scenario.getName();
         if(scenario.isFailed()) {
             // Take a screenshot
            byte[] screenshot = ((TakesScreenshot) world.getDriver()).getScreenshotAs(OutputType.BYTES);
-           String fileName = scenario.getName();
-           scenario.embed(screenshot, "image/png");
+           scenario.embed(screenshot, "image/png", fileName);
 
         }
-
-
    }
 }

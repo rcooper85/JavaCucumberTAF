@@ -52,9 +52,13 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>1.0.11</version>
+        </dependency>
     </dependencies>
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -68,7 +72,7 @@
                     <executions>
                         <execution>
                             <id>report</id>
-                            <phase>post-integration-test</phase>
+                            <phase>test</phase>
                             <goals>
                                 <goal>reporting</goal>
                             </goals>
@@ -80,7 +84,6 @@
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
 
 

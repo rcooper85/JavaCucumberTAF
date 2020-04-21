@@ -1,9 +1,16 @@
 package pages;
 
 import base.CucumberWorld;
+import io.cucumber.java.Scenario;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BasePage {
 
@@ -15,16 +22,9 @@ public class BasePage {
         this.world = world;
     }
 
-
-    public ForgotPasswordPage clickForgotPassword(String link) {
-        world.getDriver().findElement(By.linkText(link)).click();
-        return new ForgotPasswordPage(world);
-
-    }
-
-    public LoginPage clickLoginPage() {
-        world.getDriver().findElement(By.linkText("Form Authentication")).click();
-        return new LoginPage(world);
+    public void takeScreenshot(String filename) throws IOException {
+       File srcFile = ((TakesScreenshot)world.getDriver()).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(srcFile, new File(filename + ".jpg"));
     }
 
 }

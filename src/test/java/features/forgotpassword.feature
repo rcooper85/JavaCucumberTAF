@@ -1,5 +1,4 @@
-@test
-
+@password @all
 Feature: Forgot Password
   Scenario Outline: Retrieve passwords for different email addresses
     Given I browse to webpage https://the-internet.herokuapp.com/forgot_password
@@ -10,4 +9,5 @@ Feature: Forgot Password
     Examples:
     | email           |
     | test@email.com  |
-    | test2@gmail.com |
+    | test2ytyttuyyfyujfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjfjgfjfjgfgjfgj@gmail.com |
+    | invalidemail    |

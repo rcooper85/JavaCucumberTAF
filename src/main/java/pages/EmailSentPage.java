@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class EmailSentPage extends BasePage {
 
-    public CucumberWorld world;
     private By contentArea = By.id("content");
-
 
     public EmailSentPage(CucumberWorld world) {
         super(world);

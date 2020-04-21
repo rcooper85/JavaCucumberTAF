@@ -8,8 +8,6 @@ import org.openqa.selenium.support.How;
 
 public class ForgotPasswordPage extends BasePage {
 
-    public CucumberWorld world;
-
     private By emailField = By.id("email");
     private By retrievePasswordButton = By.id("form_submit");
 
@@ -21,8 +19,8 @@ public class ForgotPasswordPage extends BasePage {
     @FindBy(how = How.ID, using = "email")
     public WebElement emailid;
 
-    public void emailIdIsDisplayed() {
-        world.getDriver().findElement(emailField).isDisplayed();
+    public boolean emailIdIsDisplayed() {
+        return world.getDriver().findElement(emailField).isDisplayed();
     }
 
     public void enterEmailAddress(String email) {

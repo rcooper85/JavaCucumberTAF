@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,8 @@
               <list>
                 <option value="clean" />
                 <option value="verify" />
-                <option value="-Dcucumber.options=--tags @dropdown" />
+                <option value="-Dcucumber.options=--tags @all" />
+                <option value="-Dbrowser=remote" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -224,10 +226,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588242452913">
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588246165337">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1588242452913" />
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1588246165337" />
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586362394575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

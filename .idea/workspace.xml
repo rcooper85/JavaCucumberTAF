@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1534777290.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1534777290.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1698780103.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1698780103.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_903580944.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_903580944.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_dropdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

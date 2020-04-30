@@ -12,14 +12,15 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class CucumberWorld {
 
     ReadConfig config = new ReadConfig();
     public static WebDriver driver;
     public static final String USERNAME = "ross217";
-    public final String AUTOMATE_KEY = config.loadConfig("seleniumgridkey");
-    public final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+    private final String AUTOMATE_KEY = config.loadConfig("seleniumgridkey");
+    private final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     public WebDriver getDriver() {
         return driver;
@@ -31,17 +32,21 @@ public class CucumberWorld {
 
     public void setupWorld() throws MalformedURLException {
 
+        // Get the Browser type from config file
         String browser = config.loadConfig("browser").toLowerCase();
 
+        // IF statement to determine which browser to instantiate
         if ("chrome".equals(browser)) {
             System.out.println("Loading chromedriver for Chrome");
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\chromedriver.exe");
-            this.driver = new ChromeDriver();
+            driver = new ChromeDriver();
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         } else if ("edge".equals(browser)) {
             System.out.println("Loading the msedgedriver for Microsoft Edge");
             System.setProperty("webdriver.edge.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\msedgedriver.exe");
-            this.driver = new EdgeDriver();
+            driver = new EdgeDriver();
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         } else if ("remote".equals(browser)) {
             System.out.println("Loading the remote Webdriver for Selenium grid");
             DesiredCapabilities caps = new DesiredCapabilities();
@@ -53,9 +58,10 @@ public class CucumberWorld {
             caps.setCapability("name", "Bstack- Java Framework for Ross");
             caps.setCapability("build", "Test build for Ross");
             caps.setCapability("project", "Java Cucumber Framework");
-            this.driver = new RemoteWebDriver(new URL(URL), caps);
+            driver = new RemoteWebDriver(new URL(URL), caps);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        } else throw new RuntimeException("The property browser is null, Please state a browser to test with in the properties file");
+        } else throw new RuntimeException("Set the browser property to be chrome, edge or remote in the config.properties file.");
 
     }
 

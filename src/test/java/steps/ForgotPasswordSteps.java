@@ -24,8 +24,6 @@ public class ForgotPasswordSteps {
     @Given("^I browse to webpage (.*)$")
     public void iBrowseToWebpageHttpsTheInternetHerokuappCom(String webpage) {
         world.getDriver().navigate().to(webpage);
-        //System.out.println("The url is: " + testEnvironment.url());
-
     }
 
     @When("^I click on the link (.*)$")

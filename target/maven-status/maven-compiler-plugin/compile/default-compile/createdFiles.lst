@@ -1,9 +1,0 @@
-pages\InputsPage.class
-pages\BasePage.class
-pages\LoginPage.class
-pages\HomePage.class
-pages\EmailSentPage.class
-pages\AlertsPage.class
-pages\ForgotPasswordPage.class
-base\CucumberWorld.class
-base\ReadConfig.class

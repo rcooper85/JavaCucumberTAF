@@ -16,11 +16,12 @@ public class AlertsSteps {
 
     public AlertsSteps(CucumberWorld world) {
         this.world = world;
+        alertsPage = new AlertsPage(this.world);
     }
 
     @When("I click on the button Click for JS Alert")
     public void iClickOnTheButtonClickForJSAlert() {
-        alertsPage = new AlertsPage(this.world);
+        //alertsPage = new AlertsPage(this.world);
         alertsPage.clickAlertButton();
     }
 
@@ -40,5 +41,26 @@ public class AlertsSteps {
     @Then("^I take a screenshot with filename (.+)$")
     public void iTakeAScreenshot(String filename) throws IOException {
         alertsPage.takeScreenshot(filename);
+    }
+
+    @When("I click on the button Click for JS Prompt")
+    public void iClickOnTheButtonClickForJSPrompt() {
+        alertsPage.clickPromptButton();
+        
+    }
+
+    @And("I enter the text {string}")
+    public void iEnterTheText(String arg0) {
+        alertsPage.alert_setInput(arg0);
+        
+    }
+
+    @Then("The text {string} is displayed in the result section")
+    public void theTextIsDisplayedInTheResultSection(String arg0) {
+        String actualText = alertsPage.getResult();
+
+        Assert.assertEquals("The text you entered does not match what was expected.", arg0, actualText);
+
+
     }
 }

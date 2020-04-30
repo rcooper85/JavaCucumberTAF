@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/contextmenu.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/dropdown.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ContextmenuSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DropdownSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/alerts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/alerts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AlertsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AlertsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaCucumberTAF-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaCucumberTAF-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/CucumberWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/CucumberWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/ReadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/ReadConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/EmailSentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EmailSentPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/InputsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InputsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01217190227.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0149352526.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01746504791.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0673863185.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1698780103.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1698780103.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_899660125.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/AlertsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/AlertsSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CommonSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/CommonSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ForgotPasswordSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ForgotPasswordSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HomepageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HomepageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

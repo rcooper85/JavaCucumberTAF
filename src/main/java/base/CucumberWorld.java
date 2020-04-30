@@ -65,12 +65,6 @@ public class CucumberWorld {
 
     }
 
-    public void setupConfig() {
-        ReadConfig config = new ReadConfig();
-        String browser = config.loadConfig("browser");
-//
-    }
-
     public void teardownWorld() {
         if (driver != null) {
             driver.quit();

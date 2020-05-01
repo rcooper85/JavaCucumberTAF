@@ -38,11 +38,6 @@ public class AlertsSteps {
         alertsPage.acceptAlert();
     }
 
-    @Then("^I take a screenshot with filename (.+)$")
-    public void iTakeAScreenshot(String filename) throws IOException {
-        alertsPage.takeScreenshot(filename);
-    }
-
     @When("I click on the button Click for JS Prompt")
     public void iClickOnTheButtonClickForJSPrompt() {
         alertsPage.clickPromptButton();

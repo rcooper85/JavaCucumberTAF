@@ -5,7 +5,7 @@
       When I click on the button Click for JS Alert
       Then The alert text I am a JS Alert is displayed
       And I click to accept the alert
-      Then I take a screenshot with filename test
+      Then I take a screenshot with filename alerts-screenshot
 
       Scenario: Test that you can set an input into an alert
         Given I browse to webpage https://the-internet.herokuapp.com/javascript_alerts

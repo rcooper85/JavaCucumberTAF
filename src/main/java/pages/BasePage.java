@@ -24,7 +24,7 @@ public class BasePage {
 
     public void takeScreenshot(String filename) throws IOException {
        File srcFile = ((TakesScreenshot)world.getDriver()).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File(filename + ".jpg"));
+        FileUtils.copyFile(srcFile, new File("C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\test\\screenshots\\" + filename + ".jpg"));
     }
 
 }

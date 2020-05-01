@@ -10,6 +10,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -21,6 +22,9 @@ public class CucumberWorld {
     public static final String USERNAME = "ross217";
     private final String AUTOMATE_KEY = config.loadConfig("seleniumgridkey");
     private final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+
+    public CucumberWorld() throws FileNotFoundException {
+    }
 
     public WebDriver getDriver() {
         return driver;

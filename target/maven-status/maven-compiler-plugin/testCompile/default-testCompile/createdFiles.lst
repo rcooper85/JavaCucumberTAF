@@ -1,8 +1,0 @@
-steps\DropdownSteps.class
-steps\ContextmenuSteps.class
-steps\ForgotPasswordSteps.class
-steps\HomepageSteps.class
-steps\CommonSteps.class
-steps\Hooks.class
-runner\TestRunner.class
-steps\AlertsSteps.class

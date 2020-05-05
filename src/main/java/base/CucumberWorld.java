@@ -17,10 +17,10 @@ import java.util.concurrent.TimeUnit;
 
 public class CucumberWorld {
 
-    ReadConfig config = new ReadConfig();
+    //ReadConfig config = new ReadConfig();
     public static WebDriver driver;
-    public static final String USERNAME = "ross217";
-    private final String AUTOMATE_KEY = config.loadConfig("seleniumgridkey");
+    public static final String USERNAME = System.getProperty("username");
+    private final String AUTOMATE_KEY = System.getProperty("seleniumgridkey");
     private final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     public CucumberWorld() throws FileNotFoundException {
@@ -36,23 +36,22 @@ public class CucumberWorld {
 
     public void setupWorld() throws MalformedURLException {
 
-        // Get the Browser type from config file
-        String browser = config.loadConfig("browser").toLowerCase();
+       String pombrowser = System.getProperty("browser");
 
         // IF statement to determine which browser to instantiate
-        if ("chrome".equals(browser)) {
+        if ("chrome".equals(pombrowser)) {
             System.out.println("Loading chromedriver for Chrome");
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        } else if ("edge".equals(browser)) {
+        } else if ("edge".equals(pombrowser)) {
             System.out.println("Loading the msedgedriver for Microsoft Edge");
             System.setProperty("webdriver.edge.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\msedgedriver.exe");
             driver = new EdgeDriver();
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        } else if ("remote".equals(browser)) {
-            System.out.println("Loading the remote Webdriver for Selenium grid");
+        } else if ("remote".equals(pombrowser)) {
+            System.out.println("Tests running in the cloud on BrowserStack");
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability("browser", "Chrome");
             caps.setCapability("browser_version", "81.0");

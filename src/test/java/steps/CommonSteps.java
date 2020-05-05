@@ -2,6 +2,7 @@ package steps;
 
 import base.CucumberWorld;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pages.BasePage;
 
@@ -16,6 +17,11 @@ public class CommonSteps {
 
         this.world = world;
         basePage = new BasePage(world);
+    }
+
+    @Given("^I browse to webpage (.*)$")
+    public void iBrowseToWebpageHttpsTheInternetHerokuappCom(String webpage) {
+        world.getDriver().navigate().to(webpage);
     }
 
     @And("I wait {int} seconds")

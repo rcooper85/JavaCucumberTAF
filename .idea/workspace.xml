@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/ReadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DropdownSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DropdownSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ForgotPasswordSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +171,7 @@
                 <option value="clean" />
                 <option value="verify" />
                 <option value="-Dcucumber.options=--tags @alerts" />
+                <option value="-Dbrowser=remote" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -224,10 +232,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588342832212">
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588696213992">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1588342832212" />
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1588696213992" />
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586362394575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -236,26 +244,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="930" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1588174496620" />
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587482349424">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588696098989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1587482349424" />
-    <state width="1557" height="260" key="GridCell.Tab.0.bottom" timestamp="1588343002738">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1588696098989" />
+    <state width="1557" height="190" key="GridCell.Tab.0.bottom" timestamp="1588696337349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="260" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588343002738" />
-    <state width="1557" height="260" key="GridCell.Tab.0.center" timestamp="1588343002738">
+    <state width="1557" height="190" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588696337349" />
+    <state width="1557" height="190" key="GridCell.Tab.0.center" timestamp="1588696337349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="260" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588343002738" />
-    <state width="1557" height="260" key="GridCell.Tab.0.left" timestamp="1588343002738">
+    <state width="1557" height="190" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588696337349" />
+    <state width="1557" height="190" key="GridCell.Tab.0.left" timestamp="1588696337349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="260" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588343002738" />
-    <state width="1557" height="260" key="GridCell.Tab.0.right" timestamp="1588343002738">
+    <state width="1557" height="190" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588696337349" />
+    <state width="1557" height="190" key="GridCell.Tab.0.right" timestamp="1588696337349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="260" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588343002738" />
+    <state width="1557" height="190" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588696337349" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1587151017303">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -64,6 +64,13 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M4</version>
+                    <configuration>
+                        <systemPropertyVariables>
+                            <browser>remote</browser>
+                            <seleniumgridkey>g3PBcdc2pYqb9PnABzE9</seleniumgridkey>
+                            <username>ross217</username>
+                        </systemPropertyVariables>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>com.trivago.rta</groupId>

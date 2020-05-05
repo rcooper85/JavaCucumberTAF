@@ -21,10 +21,6 @@ public class ForgotPasswordSteps {
         this.world = world;
     }
 
-    @Given("^I browse to webpage (.*)$")
-    public void iBrowseToWebpageHttpsTheInternetHerokuappCom(String webpage) {
-        world.getDriver().navigate().to(webpage);
-    }
 
     @When("^I click on the link (.*)$")
     public void iClickOnTheLinkForgotPassword(String link) throws InterruptedException {

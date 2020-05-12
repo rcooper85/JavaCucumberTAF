@@ -25,15 +25,14 @@ public class CucumberWorld {
 
     Date date = new Date();
 
-    //ReadConfig config = new ReadConfig();
     protected WebDriver driver;
-    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     public static final String USERNAME = System.getProperty("username");
-    private final String AUTOMATE_KEY = System.getProperty("seleniumgridkey");
-    private final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+    private static final String AUTOMATE_KEY = System.getProperty("seleniumgridkey");
+    private static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     private final String BUILD_DATE = sdf.format(date);
 
-    public CucumberWorld() throws FileNotFoundException {
+    public CucumberWorld() {
     }
 
     public WebDriver getDriver() {
@@ -47,7 +46,6 @@ public class CucumberWorld {
     public void setupWorld() throws MalformedURLException {
 
        String pombrowser = System.getProperty("browser");
-       //LocalDate date = LocalDate.now();
 
         // IF statement to determine which browser to instantiate
         if ("chrome".equals(pombrowser)) {
@@ -75,7 +73,7 @@ public class CucumberWorld {
             driver = new RemoteWebDriver(new URL(URL), caps);
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-        } else throw new RuntimeException("Set the browser property to be chrome, edge or remote in the config.properties file.");
+        } else throw new RuntimeException("Set the browser property to be chrome, edge or remote in the pom.xml file.");
 
     }
 

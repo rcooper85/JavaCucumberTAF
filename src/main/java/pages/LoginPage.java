@@ -9,8 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BasePage {
 
-    private String loginUrl = baseUrl + "login";
     CucumberWorld world;
+    private String loginUrl = baseUrl + "login";
 
 //    public LoginPage(WebDriver driver) {
 //         PageFactory.initElements(driver, this);

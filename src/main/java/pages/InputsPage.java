@@ -8,8 +8,6 @@ public class InputsPage extends BasePage {
         super(world);
         this.world = world;
     }
-
-
-
+    /* TODO */
 
 }

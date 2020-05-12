@@ -15,7 +15,6 @@ import java.io.IOException;
 public class BasePage {
 
     public String baseUrl = "https://the-internet.herokuapp.com/";
-    protected WebDriver driver;
     public CucumberWorld world;
 
     public BasePage(CucumberWorld world) {

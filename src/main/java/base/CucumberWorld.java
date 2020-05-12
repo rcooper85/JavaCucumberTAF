@@ -26,8 +26,8 @@ public class CucumberWorld {
     Date date = new Date();
 
     //ReadConfig config = new ReadConfig();
-    public static WebDriver driver;
-    SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+    protected WebDriver driver;
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     public static final String USERNAME = System.getProperty("username");
     private final String AUTOMATE_KEY = System.getProperty("seleniumgridkey");
     private final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -54,7 +54,7 @@ public class CucumberWorld {
             System.out.println("Loading chromedriver for Chrome " + BUILD_DATE);
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ross\\Desktop\\Repos\\JavaCucumberTAF\\src\\main\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
         } else if ("edge".equals(pombrowser)) {
             System.out.println("Loading the msedgedriver for Microsoft Edge");

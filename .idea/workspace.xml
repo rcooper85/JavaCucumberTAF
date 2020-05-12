@@ -3,32 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="802edde2-790e-4a36-86c1-1ddf90b12ed3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CucumberWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/screenshots/alerts-screenshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/screenshots/alerts-screenshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaCucumberTAF-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaCucumberTAF-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/CucumberWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/CucumberWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-detail/scenario_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01043957109.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01043957109.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01055158958.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_01055158958.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0276002190.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0276002190.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0961123730.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_0961123730.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1550179074.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1550179074.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_163620965.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_163620965.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1998671700.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_1998671700.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_553231925.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-scenarios/step_553231925.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_alerts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_alerts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-scenarios/tag_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -109,15 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: This is a test scenario (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Test that you can accept alerts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/forgotpassword.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/alerts.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="JavaCucumberTAF" />
-      <option name="NAME_FILTER" value="^This is a test scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^This is a test scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: This is a test scenario" />
+      <option name="NAME_FILTER" value="^Test that you can accept alerts$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test that you can accept alerts$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test that you can accept alerts" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -128,9 +110,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: This is a test scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: This is a test scenario (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/test.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/forgotpassword.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="JavaCucumberTAF" />
       <option name="NAME_FILTER" value="^This is a test scenario$" />
@@ -189,8 +172,8 @@
               <list>
                 <option value="clean" />
                 <option value="verify" />
-                <option value="-Dcucumber.options=--tags @alerts" />
-                <option value="-Dbrowser=remote" />
+                <option value="-Dcucumber.options=--tags @all" />
+                <option value="-Dbrowser=chrome" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -224,19 +207,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: Retrieve passwords for different email addresses" />
-      <item itemvalue="Cucumber java.Scenario: This is a test scenario" />
       <item itemvalue="Cucumber java.Scenario: This is a test scenario (1)" />
+      <item itemvalue="Cucumber java.Scenario: Test that you can accept alerts" />
       <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="Maven.JavaCucumberTAF [clean,verify...]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Test that you can accept alerts" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Retrieve passwords for different email addresses" />
         <item itemvalue="Cucumber java.Scenario: This is a test scenario (1)" />
-        <item itemvalue="Cucumber java.Scenario: This is a test scenario" />
       </list>
     </recent_temporary>
   </component>
@@ -251,10 +234,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588700379425">
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589297501272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1588700379425" />
+    <state x="158" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1589297501272" />
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586362394575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -267,46 +250,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1588696098989" />
-    <state width="1557" height="190" key="GridCell.Tab.0.bottom" timestamp="1588700303165">
+    <state width="1557" height="190" key="GridCell.Tab.0.bottom" timestamp="1589299174647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="190" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588700303165" />
-    <state width="1557" height="190" key="GridCell.Tab.0.center" timestamp="1588700303165">
+    <state width="1557" height="190" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589299174647" />
+    <state width="1557" height="190" key="GridCell.Tab.0.center" timestamp="1589299174647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="190" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588700303165" />
-    <state width="1557" height="190" key="GridCell.Tab.0.left" timestamp="1588700303164">
+    <state width="1557" height="190" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589299174647" />
+    <state width="1557" height="190" key="GridCell.Tab.0.left" timestamp="1589299174647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="190" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588700303164" />
-    <state width="1557" height="190" key="GridCell.Tab.0.right" timestamp="1588700303165">
+    <state width="1557" height="190" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589299174647" />
+    <state width="1557" height="190" key="GridCell.Tab.0.right" timestamp="1589299174647">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="190" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588700303165" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1587151017303">
+    <state width="1557" height="190" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589299174647" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1589214505306">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587151017303" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1587151017303">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589214505306" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1589214505305">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1587151017303" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1587151017303">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589214505305" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1589214505305">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1587151017303" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1587151017303">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589214505305" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1589214505306">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1587151017303" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1587057098842">
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589214505306" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1589214503712">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587057098842" />
-    <state x="376" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587057285734">
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1589214503712" />
+    <state x="376" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589214312176">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="376" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1587057285734" />
+    <state x="376" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1589214312176" />
     <state x="552" y="351" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588171733489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -315,5 +298,16 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1587041071662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/CommonSteps.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

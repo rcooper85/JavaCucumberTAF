@@ -65,6 +65,9 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M4</version>
                     <configuration>
+                        <parallel>methods</parallel>
+                        <useUnlimitedThreads>true</useUnlimitedThreads>
+                        <testFailureIgnore>true</testFailureIgnore>
                         <systemPropertyVariables>
                             <browser>remote</browser>
                             <seleniumgridkey>g3PBcdc2pYqb9PnABzE9</seleniumgridkey>

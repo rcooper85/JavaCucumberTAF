@@ -2,6 +2,8 @@ package pages;
 
 import base.CucumberWorld;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AlertsPage extends BasePage {
 
@@ -17,7 +19,9 @@ public class AlertsPage extends BasePage {
     }
 
     public void clickAlertButton() {
-        world.getDriver().findElement(jsAlertButton).click();
+        WebDriverWait wait = new WebDriverWait(world.getDriver(), 2);
+        //world.getDriver().findElement(jsAlertButton).click();
+        wait.until(ExpectedConditions.elementToBeClickable(jsAlertButton)).click();
     }
 
     public void clickConfirmButton() {

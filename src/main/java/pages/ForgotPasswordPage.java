@@ -16,9 +16,6 @@ public class ForgotPasswordPage extends BasePage {
         this.world = world;
     }
 
-    @FindBy(how = How.ID, using = "email")
-    public WebElement emailid;
-
     public boolean emailIdIsDisplayed() {
         return world.getDriver().findElement(emailField).isDisplayed();
     }

@@ -70,8 +70,8 @@
                         <testFailureIgnore>true</testFailureIgnore>
                         <systemPropertyVariables>
                             <browser>remote</browser>
-                            <seleniumgridkey>g3PBcdc2pYqb9PnABzE9</seleniumgridkey>
-                            <username>ross217</username>
+                            <seleniumgridkey></seleniumgridkey>
+                            <username></username>
                         </systemPropertyVariables>
                     </configuration>
                 </plugin>

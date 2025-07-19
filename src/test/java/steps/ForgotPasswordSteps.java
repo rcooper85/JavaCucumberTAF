@@ -25,13 +25,14 @@ public class ForgotPasswordSteps {
     @When("^I click on the link (.*)$")
     public void iClickOnTheLinkForgotPassword(String link) throws InterruptedException {
         homepage = new HomePage(this.world);
-        homepage.clickForgotPassword(link);
+        forgotPasswordPage = homepage.clickForgotPassword(link);
     }
 
     @Then("^I see email field present$")
     public void iSeeEmailFieldPresent() {
-        //forgotPasswordPage = new ForgotPasswordPage(this.world);
-
+        if(forgotPasswordPage == null) {
+            forgotPasswordPage = new ForgotPasswordPage(this.world);
+        }
         Assert.assertTrue("The email field is not displayed", forgotPasswordPage.emailIdIsDisplayed());
     }
 
